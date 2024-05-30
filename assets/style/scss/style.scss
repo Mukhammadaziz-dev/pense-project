@@ -1,0 +1,72 @@
+@import "./header";
+@import "./main";;
+@import "./footer";
+@font-face {
+    font-family: Hind Siliguri;
+    src: url(../../fonts/HindSiliguri-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: Hind Siliguri;
+    src: url(../../fonts/HindSiliguri-Medium.ttf);
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: Hind Siliguri;
+    src: url(../../fonts/HindSiliguri-SemiBold.ttf);
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: Hind Siliguri;
+    src: url(../../fonts/HindSiliguri-Bold.ttf);
+    font-weight: 700;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    font-family: 'Hind Siliguri';
+    color: #000;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1109px;
+    margin: 0 auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #828282c6; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #646464; 
+  }

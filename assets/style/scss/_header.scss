@@ -1,0 +1,124 @@
+.site-header {
+    .site-header-style {
+        position: fixed;
+        background: #ffffff5b;
+        backdrop-filter: blur(20px);
+        width: 100%;
+        height: 100px;
+        z-index: 5;
+        .site-header-conteiner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+            .site-header-logo-img {
+                transition: all ease 0.5s;     
+            }
+            .site-header-logo-img:hover {
+                transform: scale(1.1);
+            }
+            .sitenav-list {
+                display: flex;
+                list-style-type: none;
+                gap: 40px;
+                .sitenav-link {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 17.1px;
+                    text-decoration: none;
+                    color: #292830;
+                    transition: all ease 0.8s;
+                }
+                .sitenav-link:hover {
+                    text-decoration: underline;
+                    text-decoration-color: #FF7235;
+                }
+            }
+            .site-header-btn {
+                width: 160px;
+                height: 48px;
+                border: 1px solid #FF7235;
+                background: none;
+                border-radius: 8px;
+                color: #FF7235;
+                font-size: 18px;
+                font-weight: 400;  
+                transition: all ease 0.5s;    
+                cursor: pointer; 
+            }
+            .site-header-btn:hover {
+                transform: scale(1.1);
+                background: #FF7235;
+                color: #fff;
+            }
+        }
+    }
+    .site-header-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 206px;
+        .site-header-section-left {
+            width: 540px;
+            .site-header-section-left-title {
+                font-weight: 700;
+                font-size: 96px;
+                line-height: 96px;                
+            }
+            .site-header-section-left-text {
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 38.81px;
+                color: #BDBDBD;
+                margin-top: 20px;
+            }
+            .site-header-section-left-apps {
+                display: flex;
+                gap: 24px;
+                margin-top: 40px;
+                .site-header-section-left-apps-btn {
+                    width: 225px;
+                    height: 75px;
+                    color: #fff;
+                    background: #FF7235;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 24px;
+                    transition: all ease 0.5s;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    .site-header-btn-vector-white {
+                        display: flex;
+                    }
+                    .site-header-btn-vector-orange {
+                        display: none;
+                    }
+                }
+                .site-header-section-left-apps-btn:hover {
+                    transform: scale(1.1);
+                    background: none;
+                    color: #FF7235;
+                    border: 1px solid #FF7235;
+                    .site-header-btn-vector-white {
+                        display: none;
+                    }
+                    .site-header-btn-vector-orange {
+                        display: flex;
+                    }
+                }
+                .site-header-section-left-apps-text {
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 38.81px;
+                    color: #BDBDBD;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                }
+            }
+        }
+    }
+
+}

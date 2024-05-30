@@ -1,0 +1,151 @@
+.site-footer {
+    .site-footer-container {
+        margin-top: 80px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        height: 277px;
+        .site-footer-logo-link {
+            .site-footer-logo-link-img{
+                transition: all ease 0.5s;
+            }
+            .site-footer-logo-link-img:hover {
+                transform: scale(1.1);
+            }
+        }
+        .site-footer-links-title {
+            color: #292830;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 38.81px;
+        }
+        .site-footer-links-list {
+            list-style-type: none;
+            .site-footer-legal-link-link {
+                text-decoration: none;
+                color: #292830;
+                transition: all ease 0.8s;
+                margin-top: 8px;
+            }
+            .site-footer-legal-link-link:first-child {
+                margin-top: 24px; 
+            }
+            .site-footer-legal-link-link:hover {
+                text-decoration: underline;
+                text-decoration-color: #FF7235;
+            }
+        }
+        .site-footer-lagel-title {
+            color: #292830;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 38.81px;
+        }
+        .site-footer-lagel-list {
+            list-style-type: none;
+            .site-footer-lagel-list-item-link {
+                text-decoration: none;
+                color: #292830;
+                transition: all ease 0.8s;
+            }
+            .site-footer-lagel-list-item-link:first-child {
+                margin-top: 24px;
+            }
+            .site-footer-lagel-list-item-link:hover {
+                text-decoration: underline;
+                text-decoration-color: #FF7235;
+            }
+        }
+        .site-footer-links-newsletter-title {
+            color: #292830;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 38.81px;
+        }
+        .site-footer-links-newsletter-text1 {
+            color: #BDBDBD;
+            margin-top: 24px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 32.34px;
+            margin-top: 10px;
+        }
+        .site-footer-links-newsletter-input-box {
+            padding: 7px 7px;
+            width: 349px;
+            height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            border: 1px solid #292830;
+            .site-footer-links-newsletter-input {
+                width: 250px;
+                height: 35px;
+                font-size: 20px;
+                color: #292830;
+                border: none;
+                background: none;
+                outline: none;
+            }
+            .site-footer-links-newsletter-input-box-btn {
+                width: 102px;
+                height: 48px;
+                border:none;
+                background: #FF7235;
+                color: #FFFFFF;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all ease 0.5s;
+            }
+            .site-footer-links-newsletter-input-box-btn:hover {
+                background: #FDC830;
+                background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+                background: linear-gradient(to right, #F37335, #FDC830);      
+                transform: scale(1.1);          
+            }
+        }
+        .site-footer-links-newsletter-text4 {
+            margin-top: 10px;
+            color: #BDBDBD;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22.64px;
+        }
+    }
+}
+.site-footer-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    .site-footer-section-content-title {
+        display: flex;
+        gap: 24px;
+        .site-footer-section-content-title-tems {
+            color: #292830;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22.64px;
+            cursor: pointer;
+        }
+    }
+    .site-footer-section-content-com {
+        color: #292830;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.64px;
+    }
+    .site-footer-section-content-logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        img {
+            cursor: pointer;
+            transition: all ease 0.5;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+    }
+}
